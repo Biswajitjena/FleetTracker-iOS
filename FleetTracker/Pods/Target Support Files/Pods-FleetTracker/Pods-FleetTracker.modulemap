@@ -1,0 +1,6 @@
+framework module Pods_FleetTracker {
+  umbrella header "Pods-FleetTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

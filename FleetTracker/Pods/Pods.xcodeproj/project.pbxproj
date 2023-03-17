@@ -1,0 +1,978 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0236D2818A0F2CAF771FBAB324D67B5F /* FGRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 697D3317F44BD3F9BFDDC756AC4E4743 /* FGRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0344A5FAD8AE3CADB3D4031431FC696A /* Pods-FleetTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E99C6252759A931A0792D4189D4D2EB /* Pods-FleetTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19E6BC71CFF3BE99CDC6AEF679C94BC4 /* IpHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A9E026FA9D03C065B0B274AE33A47F /* IpHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A56B219D045B45153E0ADA885E03499 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3848D39DBADC5953BBB3E1D0B94869E8 /* FGRoute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86AA2B911C14EC4036231398BE63C357 /* FGRoute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		394BCFE89A9838BDCA21E0E88A36B85E /* Pods-FleetTracker-FleetTrackerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1343D0BB02849FE5A7CD5D883A1D6F6A /* Pods-FleetTracker-FleetTrackerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4166B90AE1481262C9601F20C437AE45 /* Pods-FleetTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE26001A0E31F240A4DC6100C589E871 /* Pods-FleetTracker-dummy.m */; };
+		67637C0AE3108A719A8CFFE6BD334967 /* Pods-FleetTracker-FleetTrackerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A695589A463B4D8A1B62053F8A6B6A39 /* Pods-FleetTracker-FleetTrackerUITests-dummy.m */; };
+		7C5E2098A1572FA3CAF0C001AD076BC2 /* FGRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D375076ACC56E6F3A0212FD3191A6EB /* FGRoute.m */; };
+		7D50D37FAE4CA74F9BF21E6DBAD5DF7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8DAB0F0EEA5495AC6A036C83A4164721 /* Pods-FleetTrackerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F35F065579ABB0A3CA5D04A06EDF9B /* Pods-FleetTrackerTests-dummy.m */; };
+		A004EB1905326AC2F8828B106B076138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A9670A2726599D563B0A77D2D5DEBE0E /* IpHelper.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C36F8349C91D30A0A72295EDFC9EF9C /* IpHelper.c */; };
+		AC508A4CB4E505D92353BCF9D13032FE /* FGRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 476274705900086B2B0673CEE2BB4DF3 /* FGRoute-dummy.m */; };
+		C78DE36FF16643CDDD96966E717303A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DB5A73F0BCE8F066B0A6AC244B33436B /* route.h in Headers */ = {isa = PBXBuildFile; fileRef = FEF68EA329511E3F683C6E06AA9704F1 /* route.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DCA847D5EC3B5B5A9139F63DB82B803C /* Pods-FleetTrackerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E79A548722E75B1C89CA352CDB6D17D /* Pods-FleetTrackerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D41414337EBA67DDAE931B2DD325918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB164A4D6C65E23967C21B7DCE7B0A6;
+			remoteInfo = "Pods-FleetTracker";
+		};
+		B1CAA5F4A60A4BF17B00B3E7DF54A92E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ADCFE59B5535016F9DCACC27CFCAA3A;
+			remoteInfo = FGRoute;
+		};
+		EC37A3443CF96D5FFB0D70868672B8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ADCFE59B5535016F9DCACC27CFCAA3A;
+			remoteInfo = FGRoute;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0140DA83156D817C590C26B46F7E5229 /* Pods-FleetTracker-FleetTrackerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FleetTracker-FleetTrackerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		042C6481BD16EBF7252A127C6935AB2F /* Pods-FleetTracker-FleetTrackerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FleetTracker-FleetTrackerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		046907F6BA5558B9212BEEBE163D4E31 /* Pods-FleetTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FleetTracker-Info.plist"; sourceTree = "<group>"; };
+		0B0F23BAA4D9ACB37D9A47A363222C58 /* Pods-FleetTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FleetTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0DF0072420B29A2730D09ACAC9052A62 /* Pods-FleetTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FleetTracker.release.xcconfig"; sourceTree = "<group>"; };
+		1343D0BB02849FE5A7CD5D883A1D6F6A /* Pods-FleetTracker-FleetTrackerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FleetTracker-FleetTrackerUITests-umbrella.h"; sourceTree = "<group>"; };
+		1C25CC615EB9A2ABF76D80F376621831 /* FGRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FGRoute-prefix.pch"; sourceTree = "<group>"; };
+		1C36F8349C91D30A0A72295EDFC9EF9C /* IpHelper.c */ = {isa = PBXFileReference; includeInIndex = 1; name = IpHelper.c; path = FGRoute/Classes/IpHelper.c; sourceTree = "<group>"; };
+		3E99C6252759A931A0792D4189D4D2EB /* Pods-FleetTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FleetTracker-umbrella.h"; sourceTree = "<group>"; };
+		3F45CA0CF4408F691C61ED1129A751AE /* Pods-FleetTracker-FleetTrackerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FleetTracker-FleetTrackerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		407305E2C4ED255054A337F9FE10FABE /* Pods-FleetTrackerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FleetTrackerTests-Info.plist"; sourceTree = "<group>"; };
+		45A9E026FA9D03C065B0B274AE33A47F /* IpHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IpHelper.h; path = FGRoute/Classes/IpHelper.h; sourceTree = "<group>"; };
+		476274705900086B2B0673CEE2BB4DF3 /* FGRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FGRoute-dummy.m"; sourceTree = "<group>"; };
+		56A2DA3857FF6C927AB513C99989132C /* FGRoute-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FGRoute-Info.plist"; sourceTree = "<group>"; };
+		56F35F065579ABB0A3CA5D04A06EDF9B /* Pods-FleetTrackerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FleetTrackerTests-dummy.m"; sourceTree = "<group>"; };
+		5BBA2664E070584AC6BE16BEA5DEC80B /* Pods-FleetTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FleetTracker.modulemap"; sourceTree = "<group>"; };
+		66854583043E03613AC732DE51B83246 /* FGRoute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FGRoute.release.xcconfig; sourceTree = "<group>"; };
+		697D3317F44BD3F9BFDDC756AC4E4743 /* FGRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FGRoute.h; path = FGRoute/Classes/FGRoute.h; sourceTree = "<group>"; };
+		6DF85DCC5CF548C8C5238C285622FCE7 /* FGRoute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FGRoute.debug.xcconfig; sourceTree = "<group>"; };
+		70C0C6DEB5E19E225854210D137DC20E /* Pods-FleetTracker-FleetTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FleetTracker-FleetTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D375076ACC56E6F3A0212FD3191A6EB /* FGRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FGRoute.m; path = FGRoute/Classes/FGRoute.m; sourceTree = "<group>"; };
+		7DA678112741BAE5A5E073E330E30060 /* Pods-FleetTrackerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FleetTrackerTests.modulemap"; sourceTree = "<group>"; };
+		7E79A548722E75B1C89CA352CDB6D17D /* Pods-FleetTrackerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FleetTrackerTests-umbrella.h"; sourceTree = "<group>"; };
+		7E7FEC59DB07D60BE6DC11D65D9FDDE5 /* Pods-FleetTracker-FleetTrackerUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FleetTracker-FleetTrackerUITests"; path = Pods_FleetTracker_FleetTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6CBB022A861BED01E9F77E30F60389 /* Pods-FleetTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FleetTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		8301E49D0C9350EC6E04A1B3DBF80929 /* Pods-FleetTrackerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FleetTrackerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		86AA2B911C14EC4036231398BE63C357 /* FGRoute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FGRoute-umbrella.h"; sourceTree = "<group>"; };
+		88D4414177A65D7C26D9D2753256753C /* Pods-FleetTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FleetTracker-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C7892EDE6A5644CE3E7D0DCF64D02FD /* Pods-FleetTracker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FleetTracker"; path = Pods_FleetTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		966E4E17BE695D7EDB5569916EC81223 /* Pods-FleetTracker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FleetTracker-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A462BB8075057AD2B266B8F6CD4BAD66 /* FGRoute */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FGRoute; path = FGRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A695589A463B4D8A1B62053F8A6B6A39 /* Pods-FleetTracker-FleetTrackerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FleetTracker-FleetTrackerUITests-dummy.m"; sourceTree = "<group>"; };
+		AABBDD04EBF0D301A881FD839248F83E /* Pods-FleetTrackerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FleetTrackerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B834D01FE7BBD87D7577557DBAA09BB7 /* FGRoute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FGRoute.modulemap; sourceTree = "<group>"; };
+		CE26001A0E31F240A4DC6100C589E871 /* Pods-FleetTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FleetTracker-dummy.m"; sourceTree = "<group>"; };
+		D57B0A354CFF650E4F1CE90BF49D7CF6 /* Pods-FleetTrackerTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FleetTrackerTests"; path = Pods_FleetTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFFCB3D00A42358DDA0A07F9C435AE8 /* Pods-FleetTracker-FleetTrackerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FleetTracker-FleetTrackerUITests.modulemap"; sourceTree = "<group>"; };
+		E54185C37788973FEE84033B2182A5FA /* Pods-FleetTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FleetTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		E890EEA8F7A91D9691623A5DD91B67B3 /* Pods-FleetTracker-FleetTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FleetTracker-FleetTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EA89AC29492FED6B2A6B5EADEEBC9E0D /* Pods-FleetTracker-FleetTrackerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FleetTracker-FleetTrackerUITests-Info.plist"; sourceTree = "<group>"; };
+		FA582AE45265897963D4A85B44BD4EB6 /* Pods-FleetTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FleetTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEF68EA329511E3F683C6E06AA9704F1 /* route.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = route.h; path = FGRoute/Classes/route.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A584A7E047C1E3BF1D7CEC165E6AA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D50D37FAE4CA74F9BF21E6DBAD5DF7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96DA7346743E18C2F8FBEADC0145058A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A56B219D045B45153E0ADA885E03499 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC93489B65F48B0347ECF9032E8AE515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A004EB1905326AC2F8828B106B076138 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF1276D173A272E09D6618779465FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78DE36FF16643CDDD96966E717303A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DA44DDED2C6BF64EFC97B72273361F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B834D01FE7BBD87D7577557DBAA09BB7 /* FGRoute.modulemap */,
+				476274705900086B2B0673CEE2BB4DF3 /* FGRoute-dummy.m */,
+				56A2DA3857FF6C927AB513C99989132C /* FGRoute-Info.plist */,
+				1C25CC615EB9A2ABF76D80F376621831 /* FGRoute-prefix.pch */,
+				86AA2B911C14EC4036231398BE63C357 /* FGRoute-umbrella.h */,
+				6DF85DCC5CF548C8C5238C285622FCE7 /* FGRoute.debug.xcconfig */,
+				66854583043E03613AC732DE51B83246 /* FGRoute.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FGRoute";
+			sourceTree = "<group>";
+		};
+		48E15CD7ABD81D59B21E762BDA4A695B /* FGRoute */ = {
+			isa = PBXGroup;
+			children = (
+				697D3317F44BD3F9BFDDC756AC4E4743 /* FGRoute.h */,
+				7D375076ACC56E6F3A0212FD3191A6EB /* FGRoute.m */,
+				1C36F8349C91D30A0A72295EDFC9EF9C /* IpHelper.c */,
+				45A9E026FA9D03C065B0B274AE33A47F /* IpHelper.h */,
+				FEF68EA329511E3F683C6E06AA9704F1 /* route.h */,
+				3DA44DDED2C6BF64EFC97B72273361F1 /* Support Files */,
+			);
+			name = FGRoute;
+			path = FGRoute;
+			sourceTree = "<group>";
+		};
+		4AC07751916E0B025940880FC20BB702 /* Pods-FleetTracker-FleetTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFCB3D00A42358DDA0A07F9C435AE8 /* Pods-FleetTracker-FleetTrackerUITests.modulemap */,
+				0140DA83156D817C590C26B46F7E5229 /* Pods-FleetTracker-FleetTrackerUITests-acknowledgements.markdown */,
+				3F45CA0CF4408F691C61ED1129A751AE /* Pods-FleetTracker-FleetTrackerUITests-acknowledgements.plist */,
+				A695589A463B4D8A1B62053F8A6B6A39 /* Pods-FleetTracker-FleetTrackerUITests-dummy.m */,
+				042C6481BD16EBF7252A127C6935AB2F /* Pods-FleetTracker-FleetTrackerUITests-frameworks.sh */,
+				EA89AC29492FED6B2A6B5EADEEBC9E0D /* Pods-FleetTracker-FleetTrackerUITests-Info.plist */,
+				1343D0BB02849FE5A7CD5D883A1D6F6A /* Pods-FleetTracker-FleetTrackerUITests-umbrella.h */,
+				70C0C6DEB5E19E225854210D137DC20E /* Pods-FleetTracker-FleetTrackerUITests.debug.xcconfig */,
+				E890EEA8F7A91D9691623A5DD91B67B3 /* Pods-FleetTracker-FleetTrackerUITests.release.xcconfig */,
+			);
+			name = "Pods-FleetTracker-FleetTrackerUITests";
+			path = "Target Support Files/Pods-FleetTracker-FleetTrackerUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		78A29F70FF3A7F0358C4BE82557DF7A9 /* Pods-FleetTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DA678112741BAE5A5E073E330E30060 /* Pods-FleetTrackerTests.modulemap */,
+				AABBDD04EBF0D301A881FD839248F83E /* Pods-FleetTrackerTests-acknowledgements.markdown */,
+				8301E49D0C9350EC6E04A1B3DBF80929 /* Pods-FleetTrackerTests-acknowledgements.plist */,
+				56F35F065579ABB0A3CA5D04A06EDF9B /* Pods-FleetTrackerTests-dummy.m */,
+				407305E2C4ED255054A337F9FE10FABE /* Pods-FleetTrackerTests-Info.plist */,
+				7E79A548722E75B1C89CA352CDB6D17D /* Pods-FleetTrackerTests-umbrella.h */,
+				0B0F23BAA4D9ACB37D9A47A363222C58 /* Pods-FleetTrackerTests.debug.xcconfig */,
+				E54185C37788973FEE84033B2182A5FA /* Pods-FleetTrackerTests.release.xcconfig */,
+			);
+			name = "Pods-FleetTrackerTests";
+			path = "Target Support Files/Pods-FleetTrackerTests";
+			sourceTree = "<group>";
+		};
+		88F6330A9262248B15B8B32B913DE19A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48E15CD7ABD81D59B21E762BDA4A695B /* FGRoute */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AAABD15387EF7C1772197EEE79E06682 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8E7F9199F58241B39A7CC288E769018 /* Pods-FleetTracker */,
+				4AC07751916E0B025940880FC20BB702 /* Pods-FleetTracker-FleetTrackerUITests */,
+				78A29F70FF3A7F0358C4BE82557DF7A9 /* Pods-FleetTrackerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				88F6330A9262248B15B8B32B913DE19A /* Pods */,
+				EDDAD38D83070BC760914610908FED29 /* Products */,
+				AAABD15387EF7C1772197EEE79E06682 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDDAD38D83070BC760914610908FED29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A462BB8075057AD2B266B8F6CD4BAD66 /* FGRoute */,
+				8C7892EDE6A5644CE3E7D0DCF64D02FD /* Pods-FleetTracker */,
+				7E7FEC59DB07D60BE6DC11D65D9FDDE5 /* Pods-FleetTracker-FleetTrackerUITests */,
+				D57B0A354CFF650E4F1CE90BF49D7CF6 /* Pods-FleetTrackerTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8E7F9199F58241B39A7CC288E769018 /* Pods-FleetTracker */ = {
+			isa = PBXGroup;
+			children = (
+				5BBA2664E070584AC6BE16BEA5DEC80B /* Pods-FleetTracker.modulemap */,
+				FA582AE45265897963D4A85B44BD4EB6 /* Pods-FleetTracker-acknowledgements.markdown */,
+				88D4414177A65D7C26D9D2753256753C /* Pods-FleetTracker-acknowledgements.plist */,
+				CE26001A0E31F240A4DC6100C589E871 /* Pods-FleetTracker-dummy.m */,
+				966E4E17BE695D7EDB5569916EC81223 /* Pods-FleetTracker-frameworks.sh */,
+				046907F6BA5558B9212BEEBE163D4E31 /* Pods-FleetTracker-Info.plist */,
+				3E99C6252759A931A0792D4189D4D2EB /* Pods-FleetTracker-umbrella.h */,
+				7F6CBB022A861BED01E9F77E30F60389 /* Pods-FleetTracker.debug.xcconfig */,
+				0DF0072420B29A2730D09ACAC9052A62 /* Pods-FleetTracker.release.xcconfig */,
+			);
+			name = "Pods-FleetTracker";
+			path = "Target Support Files/Pods-FleetTracker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		49DF20DC8933F7DFCDFA82E8FDCAE016 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA847D5EC3B5B5A9139F63DB82B803C /* Pods-FleetTrackerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579665410C020FCF5D376C675A3F679E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0236D2818A0F2CAF771FBAB324D67B5F /* FGRoute.h in Headers */,
+				3848D39DBADC5953BBB3E1D0B94869E8 /* FGRoute-umbrella.h in Headers */,
+				19E6BC71CFF3BE99CDC6AEF679C94BC4 /* IpHelper.h in Headers */,
+				DB5A73F0BCE8F066B0A6AC244B33436B /* route.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D7722AD44F38C3311BD5F6B86BEAE30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0344A5FAD8AE3CADB3D4031431FC696A /* Pods-FleetTracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6B5B6C41213856EE56339972E02865 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394BCFE89A9838BDCA21E0E88A36B85E /* Pods-FleetTracker-FleetTrackerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3ADCFE59B5535016F9DCACC27CFCAA3A /* FGRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21B4019B8ACDA0CB8B3A19730440774 /* Build configuration list for PBXNativeTarget "FGRoute" */;
+			buildPhases = (
+				579665410C020FCF5D376C675A3F679E /* Headers */,
+				E886867046C6B6BA776EC1CE9038DDDD /* Sources */,
+				96DA7346743E18C2F8FBEADC0145058A /* Frameworks */,
+				5DABEAC2B76598D97AB425D3C1E0BC58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FGRoute;
+			productName = FGRoute;
+			productReference = A462BB8075057AD2B266B8F6CD4BAD66 /* FGRoute */;
+			productType = "com.apple.product-type.framework";
+		};
+		4EB164A4D6C65E23967C21B7DCE7B0A6 /* Pods-FleetTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334762336912E68343212A71B76A36CB /* Build configuration list for PBXNativeTarget "Pods-FleetTracker" */;
+			buildPhases = (
+				8D7722AD44F38C3311BD5F6B86BEAE30 /* Headers */,
+				85E0FEC395E620A6A492D3A1A9F46D93 /* Sources */,
+				CC93489B65F48B0347ECF9032E8AE515 /* Frameworks */,
+				FB35046B430A113125D40C8BB01CC2AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69981D44A8B3B49B176924DBC09FDBC3 /* PBXTargetDependency */,
+			);
+			name = "Pods-FleetTracker";
+			productName = Pods_FleetTracker;
+			productReference = 8C7892EDE6A5644CE3E7D0DCF64D02FD /* Pods-FleetTracker */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D5084100B2DA14E9D4DD6C8C8A6C3F4 /* Pods-FleetTracker-FleetTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA6A89721F7CD26515D480E9E066242 /* Build configuration list for PBXNativeTarget "Pods-FleetTracker-FleetTrackerUITests" */;
+			buildPhases = (
+				FB6B5B6C41213856EE56339972E02865 /* Headers */,
+				9E04AED292CE6F3653FC7D383B265C59 /* Sources */,
+				3A584A7E047C1E3BF1D7CEC165E6AA22 /* Frameworks */,
+				7428FE9196907B1D9AD015AF159ECEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4E83FBB5F964738F1A063B99CA5D382 /* PBXTargetDependency */,
+			);
+			name = "Pods-FleetTracker-FleetTrackerUITests";
+			productName = Pods_FleetTracker_FleetTrackerUITests;
+			productReference = 7E7FEC59DB07D60BE6DC11D65D9FDDE5 /* Pods-FleetTracker-FleetTrackerUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CA31142EA0816A9332A8B2DD2D492FC /* Pods-FleetTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4657EDB693A413FEEAAED215C9D189F /* Build configuration list for PBXNativeTarget "Pods-FleetTrackerTests" */;
+			buildPhases = (
+				49DF20DC8933F7DFCDFA82E8FDCAE016 /* Headers */,
+				710B4385B7B1AC1CD725E004921DC412 /* Sources */,
+				CEF1276D173A272E09D6618779465FD3 /* Frameworks */,
+				3378D14CBFE83B5900B6FF1348E400F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57C40822053392083758CB7D19188604 /* PBXTargetDependency */,
+			);
+			name = "Pods-FleetTrackerTests";
+			productName = Pods_FleetTrackerTests;
+			productReference = D57B0A354CFF650E4F1CE90BF49D7CF6 /* Pods-FleetTrackerTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EDDAD38D83070BC760914610908FED29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ADCFE59B5535016F9DCACC27CFCAA3A /* FGRoute */,
+				4EB164A4D6C65E23967C21B7DCE7B0A6 /* Pods-FleetTracker */,
+				7D5084100B2DA14E9D4DD6C8C8A6C3F4 /* Pods-FleetTracker-FleetTrackerUITests */,
+				9CA31142EA0816A9332A8B2DD2D492FC /* Pods-FleetTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3378D14CBFE83B5900B6FF1348E400F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DABEAC2B76598D97AB425D3C1E0BC58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7428FE9196907B1D9AD015AF159ECEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB35046B430A113125D40C8BB01CC2AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		710B4385B7B1AC1CD725E004921DC412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAB0F0EEA5495AC6A036C83A4164721 /* Pods-FleetTrackerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E0FEC395E620A6A492D3A1A9F46D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4166B90AE1481262C9601F20C437AE45 /* Pods-FleetTracker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E04AED292CE6F3653FC7D383B265C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67637C0AE3108A719A8CFFE6BD334967 /* Pods-FleetTracker-FleetTrackerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E886867046C6B6BA776EC1CE9038DDDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5E2098A1572FA3CAF0C001AD076BC2 /* FGRoute.m in Sources */,
+				AC508A4CB4E505D92353BCF9D13032FE /* FGRoute-dummy.m in Sources */,
+				A9670A2726599D563B0A77D2D5DEBE0E /* IpHelper.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57C40822053392083758CB7D19188604 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FleetTracker";
+			target = 4EB164A4D6C65E23967C21B7DCE7B0A6 /* Pods-FleetTracker */;
+			targetProxy = 2D41414337EBA67DDAE931B2DD325918 /* PBXContainerItemProxy */;
+		};
+		69981D44A8B3B49B176924DBC09FDBC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FGRoute;
+			target = 3ADCFE59B5535016F9DCACC27CFCAA3A /* FGRoute */;
+			targetProxy = EC37A3443CF96D5FFB0D70868672B8DA /* PBXContainerItemProxy */;
+		};
+		E4E83FBB5F964738F1A063B99CA5D382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FGRoute;
+			target = 3ADCFE59B5535016F9DCACC27CFCAA3A /* FGRoute */;
+			targetProxy = B1CAA5F4A60A4BF17B00B3E7DF54A92E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0067B0EF97A7C059157BEC250BAEAAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54185C37788973FEE84033B2182A5FA /* Pods-FleetTrackerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FleetTrackerTests/Pods-FleetTrackerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FleetTrackerTests/Pods-FleetTrackerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3EB98BABFEAB82BEBC28382AED038DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66854583043E03613AC732DE51B83246 /* FGRoute.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FGRoute/FGRoute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FGRoute/FGRoute-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FGRoute/FGRoute.modulemap";
+				PRODUCT_MODULE_NAME = FGRoute;
+				PRODUCT_NAME = FGRoute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71931A381E3146E537D637E8FF7048B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E890EEA8F7A91D9691623A5DD91B67B3 /* Pods-FleetTracker-FleetTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FleetTracker-FleetTrackerUITests/Pods-FleetTracker-FleetTrackerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FleetTracker-FleetTrackerUITests/Pods-FleetTracker-FleetTrackerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		965C75C4304A2E2163E050B56BF597D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C0C6DEB5E19E225854210D137DC20E /* Pods-FleetTracker-FleetTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FleetTracker-FleetTrackerUITests/Pods-FleetTracker-FleetTrackerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FleetTracker-FleetTrackerUITests/Pods-FleetTracker-FleetTrackerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E7F7CD55A94E58D43338B85ECADA7DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF0072420B29A2730D09ACAC9052A62 /* Pods-FleetTracker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FleetTracker/Pods-FleetTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FleetTracker/Pods-FleetTracker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9EB35DB6917A447818C4EDC398F5EE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F6CBB022A861BED01E9F77E30F60389 /* Pods-FleetTracker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FleetTracker/Pods-FleetTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FleetTracker/Pods-FleetTracker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD70D39A51DAA8BFF869F5ECE8341061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0F23BAA4D9ACB37D9A47A363222C58 /* Pods-FleetTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FleetTrackerTests/Pods-FleetTrackerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FleetTrackerTests/Pods-FleetTrackerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E53A3CC55190726FD33A883B80045305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF85DCC5CF548C8C5238C285622FCE7 /* FGRoute.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FGRoute/FGRoute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FGRoute/FGRoute-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FGRoute/FGRoute.modulemap";
+				PRODUCT_MODULE_NAME = FGRoute;
+				PRODUCT_NAME = FGRoute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		334762336912E68343212A71B76A36CB /* Build configuration list for PBXNativeTarget "Pods-FleetTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB35DB6917A447818C4EDC398F5EE95 /* Debug */,
+				9E7F7CD55A94E58D43338B85ECADA7DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA6A89721F7CD26515D480E9E066242 /* Build configuration list for PBXNativeTarget "Pods-FleetTracker-FleetTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965C75C4304A2E2163E050B56BF597D5 /* Debug */,
+				71931A381E3146E537D637E8FF7048B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4657EDB693A413FEEAAED215C9D189F /* Build configuration list for PBXNativeTarget "Pods-FleetTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD70D39A51DAA8BFF869F5ECE8341061 /* Debug */,
+				0067B0EF97A7C059157BEC250BAEAAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21B4019B8ACDA0CB8B3A19730440774 /* Build configuration list for PBXNativeTarget "FGRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E53A3CC55190726FD33A883B80045305 /* Debug */,
+				3EB98BABFEAB82BEBC28382AED038DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

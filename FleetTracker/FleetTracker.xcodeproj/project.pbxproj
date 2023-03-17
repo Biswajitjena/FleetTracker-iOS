@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183627C62960203C00BF6E9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183627C52960203C00BF6E9A /* AppDelegate.m */; };
+		183627CF2960203C00BF6E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183627CD2960203C00BF6E9A /* Main.storyboard */; };
+		183627D12960203E00BF6E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183627D02960203E00BF6E9A /* Assets.xcassets */; };
+		183627D42960203E00BF6E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183627D22960203E00BF6E9A /* LaunchScreen.storyboard */; };
+		183627D72960203E00BF6E9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183627D62960203E00BF6E9A /* main.m */; };
+		183627E12960203E00BF6E9A /* FleetTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183627E02960203E00BF6E9A /* FleetTrackerTests.m */; };
+		183627EB2960203E00BF6E9A /* FleetTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183627EA2960203E00BF6E9A /* FleetTrackerUITests.m */; };
+		183627ED2960203E00BF6E9A /* FleetTrackerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183627EC2960203E00BF6E9A /* FleetTrackerUITestsLaunchTests.m */; };
+		183627FA2960209C00BF6E9A /* launchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 183627F92960209C00BF6E9A /* launchimage.png */; };
+		183628012960213400BF6E9A /* DBmanager.m in Sources */ = {isa = PBXBuildFile; fileRef = 183627FF2960213400BF6E9A /* DBmanager.m */; };
+		183628042960214700BF6E9A /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 183628032960214700BF6E9A /* GCDAsyncUdpSocket.m */; };
+		183628092960217000BF6E9A /* DataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183628072960217000BF6E9A /* DataTableViewCell.m */; };
+		1836280A2960217000BF6E9A /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183628082960217000BF6E9A /* DataViewController.m */; };
+		1836280D2960217E00BF6E9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836280B2960217D00BF6E9A /* ViewController.m */; };
+		185486C4299AA6FE00D36FD9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185486C3299AA6FE00D36FD9 /* MapKit.framework */; };
+		1867E23D2994B377006F08AE /* MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867E23C2994B377006F08AE /* MapVC.m */; };
+		18AB750629602CB8009FE954 /* FleetData.db in Resources */ = {isa = PBXBuildFile; fileRef = 18AB750329602CB8009FE954 /* FleetData.db */; };
+		18B5CA422960347E000CEC12 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B5CA402960347E000CEC12 /* iTunesArtwork.png */; };
+		18B5CA432960347E000CEC12 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B5CA412960347E000CEC12 /* iTunesArtwork@2x.png */; };
+		1B9EFDD26B61DFC040B578BC /* Pods_FleetTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C274A1EBF7AB078C0D5567A0 /* Pods_FleetTrackerTests.framework */; };
+		275264A2CC3737487C530112 /* Pods_FleetTracker_FleetTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E3BDF8A8C464A54168C417 /* Pods_FleetTracker_FleetTrackerUITests.framework */; };
+		6F96F90DC1FB7CD78D8FF163 /* Pods_FleetTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2109070A79583162B96ABE57 /* Pods_FleetTracker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		183627DD2960203E00BF6E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183627B92960203C00BF6E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183627C02960203C00BF6E9A;
+			remoteInfo = FleetTracker;
+		};
+		183627E72960203E00BF6E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183627B92960203C00BF6E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183627C02960203C00BF6E9A;
+			remoteInfo = FleetTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0325599FDCCCBC231EF2188E /* Pods-FleetTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleetTracker.debug.xcconfig"; path = "Target Support Files/Pods-FleetTracker/Pods-FleetTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		183627C12960203C00BF6E9A /* FleetTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FleetTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183627C42960203C00BF6E9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		183627C52960203C00BF6E9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		183627CE2960203C00BF6E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		183627D02960203E00BF6E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		183627D32960203E00BF6E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		183627D52960203E00BF6E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183627D62960203E00BF6E9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		183627DC2960203E00BF6E9A /* FleetTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleetTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183627E02960203E00BF6E9A /* FleetTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FleetTrackerTests.m; sourceTree = "<group>"; };
+		183627E62960203E00BF6E9A /* FleetTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleetTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183627EA2960203E00BF6E9A /* FleetTrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FleetTrackerUITests.m; sourceTree = "<group>"; };
+		183627EC2960203E00BF6E9A /* FleetTrackerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FleetTrackerUITestsLaunchTests.m; sourceTree = "<group>"; };
+		183627F92960209C00BF6E9A /* launchimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchimage.png; sourceTree = "<group>"; };
+		183627FF2960213400BF6E9A /* DBmanager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBmanager.m; sourceTree = "<group>"; };
+		183628002960213400BF6E9A /* DBmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBmanager.h; sourceTree = "<group>"; };
+		183628022960214700BF6E9A /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		183628032960214700BF6E9A /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		183628052960216F00BF6E9A /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		183628062960216F00BF6E9A /* DataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTableViewCell.h; sourceTree = "<group>"; };
+		183628072960217000BF6E9A /* DataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTableViewCell.m; sourceTree = "<group>"; };
+		183628082960217000BF6E9A /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		1836280B2960217D00BF6E9A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1836280C2960217E00BF6E9A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		185486C3299AA6FE00D36FD9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		185DA9162968212800F6663B /* FleetTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FleetTracker.entitlements; sourceTree = "<group>"; };
+		1867E23B2994B377006F08AE /* MapVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapVC.h; sourceTree = "<group>"; };
+		1867E23C2994B377006F08AE /* MapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapVC.m; sourceTree = "<group>"; };
+		18AB750329602CB8009FE954 /* FleetData.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = FleetData.db; sourceTree = "<group>"; };
+		18B5CA402960347E000CEC12 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		18B5CA412960347E000CEC12 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		1FEA0067E8B2AB9ED44A052E /* Pods-FleetTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleetTracker.release.xcconfig"; path = "Target Support Files/Pods-FleetTracker/Pods-FleetTracker.release.xcconfig"; sourceTree = "<group>"; };
+		2109070A79583162B96ABE57 /* Pods_FleetTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FleetTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7EC39BE9D72454ED87E909 /* Pods-FleetTracker-FleetTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleetTracker-FleetTrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-FleetTracker-FleetTrackerUITests/Pods-FleetTracker-FleetTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		79C240221A9FA2F3E3382F78 /* Pods-FleetTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleetTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-FleetTrackerTests/Pods-FleetTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		87C64760A31AEB338ACC6C87 /* Pods-FleetTracker-FleetTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleetTracker-FleetTrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-FleetTracker-FleetTrackerUITests/Pods-FleetTracker-FleetTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C274A1EBF7AB078C0D5567A0 /* Pods_FleetTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FleetTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0CDC22EF88F068CFE4313D4 /* Pods-FleetTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleetTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-FleetTrackerTests/Pods-FleetTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8E3BDF8A8C464A54168C417 /* Pods_FleetTracker_FleetTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FleetTracker_FleetTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183627BE2960203C00BF6E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185486C4299AA6FE00D36FD9 /* MapKit.framework in Frameworks */,
+				6F96F90DC1FB7CD78D8FF163 /* Pods_FleetTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183627D92960203E00BF6E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EFDD26B61DFC040B578BC /* Pods_FleetTrackerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183627E32960203E00BF6E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275264A2CC3737487C530112 /* Pods_FleetTracker_FleetTrackerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183627B82960203C00BF6E9A = {
+			isa = PBXGroup;
+			children = (
+				183627FC2960211300BF6E9A /* Other Framework */,
+				183627FB296020B600BF6E9A /* Framework */,
+				183627C32960203C00BF6E9A /* FleetTracker */,
+				183627DF2960203E00BF6E9A /* FleetTrackerTests */,
+				183627E92960203E00BF6E9A /* FleetTrackerUITests */,
+				183627C22960203C00BF6E9A /* Products */,
+				3AFECBDB0ACFD919FCEE865A /* Pods */,
+				726BAD6755365971C3AF7691 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		183627C22960203C00BF6E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183627C12960203C00BF6E9A /* FleetTracker.app */,
+				183627DC2960203E00BF6E9A /* FleetTrackerTests.xctest */,
+				183627E62960203E00BF6E9A /* FleetTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183627C32960203C00BF6E9A /* FleetTracker */ = {
+			isa = PBXGroup;
+			children = (
+				185DA9162968212800F6663B /* FleetTracker.entitlements */,
+				183627F92960209C00BF6E9A /* launchimage.png */,
+				183627C42960203C00BF6E9A /* AppDelegate.h */,
+				183627C52960203C00BF6E9A /* AppDelegate.m */,
+				1836280C2960217E00BF6E9A /* ViewController.h */,
+				1836280B2960217D00BF6E9A /* ViewController.m */,
+				183628062960216F00BF6E9A /* DataTableViewCell.h */,
+				183628072960217000BF6E9A /* DataTableViewCell.m */,
+				183628052960216F00BF6E9A /* DataViewController.h */,
+				183628082960217000BF6E9A /* DataViewController.m */,
+				183627CD2960203C00BF6E9A /* Main.storyboard */,
+				183627D02960203E00BF6E9A /* Assets.xcassets */,
+				183627D22960203E00BF6E9A /* LaunchScreen.storyboard */,
+				183627D52960203E00BF6E9A /* Info.plist */,
+				183627D62960203E00BF6E9A /* main.m */,
+				1867E23B2994B377006F08AE /* MapVC.h */,
+				1867E23C2994B377006F08AE /* MapVC.m */,
+			);
+			path = FleetTracker;
+			sourceTree = "<group>";
+		};
+		183627DF2960203E00BF6E9A /* FleetTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				183627E02960203E00BF6E9A /* FleetTrackerTests.m */,
+			);
+			path = FleetTrackerTests;
+			sourceTree = "<group>";
+		};
+		183627E92960203E00BF6E9A /* FleetTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				183627EA2960203E00BF6E9A /* FleetTrackerUITests.m */,
+				183627EC2960203E00BF6E9A /* FleetTrackerUITestsLaunchTests.m */,
+			);
+			path = FleetTrackerUITests;
+			sourceTree = "<group>";
+		};
+		183627FB296020B600BF6E9A /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				18B5CA402960347E000CEC12 /* iTunesArtwork.png */,
+				18B5CA412960347E000CEC12 /* iTunesArtwork@2x.png */,
+				18AB750329602CB8009FE954 /* FleetData.db */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		183627FC2960211300BF6E9A /* Other Framework */ = {
+			isa = PBXGroup;
+			children = (
+				183627FE2960212700BF6E9A /* DBManager */,
+				183627FD2960211D00BF6E9A /* New GroupGCD Async UDP Socket */,
+			);
+			path = "Other Framework";
+			sourceTree = "<group>";
+		};
+		183627FD2960211D00BF6E9A /* New GroupGCD Async UDP Socket */ = {
+			isa = PBXGroup;
+			children = (
+				183628022960214700BF6E9A /* GCDAsyncUdpSocket.h */,
+				183628032960214700BF6E9A /* GCDAsyncUdpSocket.m */,
+			);
+			path = "New GroupGCD Async UDP Socket";
+			sourceTree = "<group>";
+		};
+		183627FE2960212700BF6E9A /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				183628002960213400BF6E9A /* DBmanager.h */,
+				183627FF2960213400BF6E9A /* DBmanager.m */,
+			);
+			path = DBManager;
+			sourceTree = "<group>";
+		};
+		3AFECBDB0ACFD919FCEE865A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0325599FDCCCBC231EF2188E /* Pods-FleetTracker.debug.xcconfig */,
+				1FEA0067E8B2AB9ED44A052E /* Pods-FleetTracker.release.xcconfig */,
+				87C64760A31AEB338ACC6C87 /* Pods-FleetTracker-FleetTrackerUITests.debug.xcconfig */,
+				4F7EC39BE9D72454ED87E909 /* Pods-FleetTracker-FleetTrackerUITests.release.xcconfig */,
+				D0CDC22EF88F068CFE4313D4 /* Pods-FleetTrackerTests.debug.xcconfig */,
+				79C240221A9FA2F3E3382F78 /* Pods-FleetTrackerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		726BAD6755365971C3AF7691 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				185486C3299AA6FE00D36FD9 /* MapKit.framework */,
+				2109070A79583162B96ABE57 /* Pods_FleetTracker.framework */,
+				D8E3BDF8A8C464A54168C417 /* Pods_FleetTracker_FleetTrackerUITests.framework */,
+				C274A1EBF7AB078C0D5567A0 /* Pods_FleetTrackerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183627C02960203C00BF6E9A /* FleetTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183627F02960203E00BF6E9A /* Build configuration list for PBXNativeTarget "FleetTracker" */;
+			buildPhases = (
+				C3D100D6FB47CEDC4B273F41 /* [CP] Check Pods Manifest.lock */,
+				183627BD2960203C00BF6E9A /* Sources */,
+				183627BE2960203C00BF6E9A /* Frameworks */,
+				183627BF2960203C00BF6E9A /* Resources */,
+				F71D14AE417C8C623A4DC8D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FleetTracker;
+			productName = FleetTracker;
+			productReference = 183627C12960203C00BF6E9A /* FleetTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		183627DB2960203E00BF6E9A /* FleetTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183627F32960203E00BF6E9A /* Build configuration list for PBXNativeTarget "FleetTrackerTests" */;
+			buildPhases = (
+				04AAD6C884073D41F8290046 /* [CP] Check Pods Manifest.lock */,
+				183627D82960203E00BF6E9A /* Sources */,
+				183627D92960203E00BF6E9A /* Frameworks */,
+				183627DA2960203E00BF6E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183627DE2960203E00BF6E9A /* PBXTargetDependency */,
+			);
+			name = FleetTrackerTests;
+			productName = FleetTrackerTests;
+			productReference = 183627DC2960203E00BF6E9A /* FleetTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		183627E52960203E00BF6E9A /* FleetTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183627F62960203E00BF6E9A /* Build configuration list for PBXNativeTarget "FleetTrackerUITests" */;
+			buildPhases = (
+				B090CDD3240C43939887B056 /* [CP] Check Pods Manifest.lock */,
+				183627E22960203E00BF6E9A /* Sources */,
+				183627E32960203E00BF6E9A /* Frameworks */,
+				183627E42960203E00BF6E9A /* Resources */,
+				70E227441BD809741B01FECA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183627E82960203E00BF6E9A /* PBXTargetDependency */,
+			);
+			name = FleetTrackerUITests;
+			productName = FleetTrackerUITests;
+			productReference = 183627E62960203E00BF6E9A /* FleetTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183627B92960203C00BF6E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					183627C02960203C00BF6E9A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					183627DB2960203E00BF6E9A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 183627C02960203C00BF6E9A;
+					};
+					183627E52960203E00BF6E9A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 183627C02960203C00BF6E9A;
+					};
+				};
+			};
+			buildConfigurationList = 183627BC2960203C00BF6E9A /* Build configuration list for PBXProject "FleetTracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183627B82960203C00BF6E9A;
+			productRefGroup = 183627C22960203C00BF6E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183627C02960203C00BF6E9A /* FleetTracker */,
+				183627DB2960203E00BF6E9A /* FleetTrackerTests */,
+				183627E52960203E00BF6E9A /* FleetTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183627BF2960203C00BF6E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B5CA422960347E000CEC12 /* iTunesArtwork.png in Resources */,
+				183627FA2960209C00BF6E9A /* launchimage.png in Resources */,
+				18B5CA432960347E000CEC12 /* iTunesArtwork@2x.png in Resources */,
+				183627D42960203E00BF6E9A /* LaunchScreen.storyboard in Resources */,
+				183627D12960203E00BF6E9A /* Assets.xcassets in Resources */,
+				18AB750629602CB8009FE954 /* FleetData.db in Resources */,
+				183627CF2960203C00BF6E9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183627DA2960203E00BF6E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183627E42960203E00BF6E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04AAD6C884073D41F8290046 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FleetTrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70E227441BD809741B01FECA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FleetTracker-FleetTrackerUITests/Pods-FleetTracker-FleetTrackerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FleetTracker-FleetTrackerUITests/Pods-FleetTracker-FleetTrackerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FleetTracker-FleetTrackerUITests/Pods-FleetTracker-FleetTrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B090CDD3240C43939887B056 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FleetTracker-FleetTrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3D100D6FB47CEDC4B273F41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FleetTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F71D14AE417C8C623A4DC8D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FleetTracker/Pods-FleetTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FleetTracker/Pods-FleetTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FleetTracker/Pods-FleetTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183627BD2960203C00BF6E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1836280D2960217E00BF6E9A /* ViewController.m in Sources */,
+				1867E23D2994B377006F08AE /* MapVC.m in Sources */,
+				183627C62960203C00BF6E9A /* AppDelegate.m in Sources */,
+				183628012960213400BF6E9A /* DBmanager.m in Sources */,
+				183627D72960203E00BF6E9A /* main.m in Sources */,
+				183628092960217000BF6E9A /* DataTableViewCell.m in Sources */,
+				1836280A2960217000BF6E9A /* DataViewController.m in Sources */,
+				183628042960214700BF6E9A /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183627D82960203E00BF6E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183627E12960203E00BF6E9A /* FleetTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183627E22960203E00BF6E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183627ED2960203E00BF6E9A /* FleetTrackerUITestsLaunchTests.m in Sources */,
+				183627EB2960203E00BF6E9A /* FleetTrackerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		183627DE2960203E00BF6E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183627C02960203C00BF6E9A /* FleetTracker */;
+			targetProxy = 183627DD2960203E00BF6E9A /* PBXContainerItemProxy */;
+		};
+		183627E82960203E00BF6E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183627C02960203C00BF6E9A /* FleetTracker */;
+			targetProxy = 183627E72960203E00BF6E9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		183627CD2960203C00BF6E9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183627CE2960203C00BF6E9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		183627D22960203E00BF6E9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183627D32960203E00BF6E9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183627EE2960203E00BF6E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		183627EF2960203E00BF6E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183627F12960203E00BF6E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0325599FDCCCBC231EF2188E /* Pods-FleetTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = FleetTracker/FleetTracker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = KNT8JBC82Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FleetTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fleet Tracker";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Application will access your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Application will access your location";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This app needs to be able to access your motion use";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fleetanalytics.fleetTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = fleetTracker_profile_dist_1_jan_2023;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		183627F22960203E00BF6E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FEA0067E8B2AB9ED44A052E /* Pods-FleetTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = FleetTracker/FleetTracker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = KNT8JBC82Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FleetTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fleet Tracker";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Application will access your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Application will access your location";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This app needs to be able to access your motion use";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fleetanalytics.fleetTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = fleetTracker_profile_dist_1_jan_2023;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		183627F42960203E00BF6E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0CDC22EF88F068CFE4313D4 /* Pods-FleetTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLJ9TW4X8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.FleetTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FleetTracker.app/FleetTracker";
+			};
+			name = Debug;
+		};
+		183627F52960203E00BF6E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C240221A9FA2F3E3382F78 /* Pods-FleetTrackerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLJ9TW4X8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.FleetTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FleetTracker.app/FleetTracker";
+			};
+			name = Release;
+		};
+		183627F72960203E00BF6E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C64760A31AEB338ACC6C87 /* Pods-FleetTracker-FleetTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLJ9TW4X8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.FleetTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FleetTracker;
+			};
+			name = Debug;
+		};
+		183627F82960203E00BF6E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7EC39BE9D72454ED87E909 /* Pods-FleetTracker-FleetTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLJ9TW4X8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.FleetTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FleetTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183627BC2960203C00BF6E9A /* Build configuration list for PBXProject "FleetTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183627EE2960203E00BF6E9A /* Debug */,
+				183627EF2960203E00BF6E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183627F02960203E00BF6E9A /* Build configuration list for PBXNativeTarget "FleetTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183627F12960203E00BF6E9A /* Debug */,
+				183627F22960203E00BF6E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183627F32960203E00BF6E9A /* Build configuration list for PBXNativeTarget "FleetTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183627F42960203E00BF6E9A /* Debug */,
+				183627F52960203E00BF6E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183627F62960203E00BF6E9A /* Build configuration list for PBXNativeTarget "FleetTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183627F72960203E00BF6E9A /* Debug */,
+				183627F82960203E00BF6E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183627B92960203C00BF6E9A /* Project object */;
+}
